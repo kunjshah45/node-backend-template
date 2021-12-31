@@ -1,0 +1,52 @@
+{
+  "name": "marketplace",
+  "version": "1.0.0",
+  "description": "Marketplace to buy/sell/giveaway used/new products.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunjshah45/marketplace.git"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@controllers": "./controllers",
+    "@models": "./models",
+    "@service": "./service",
+    "@validation": "./validation",
+    "@routes": "./routes",
+    "@config": "./config",
+    "@middleware": "./middleware",
+    "@commonService": "./commonService",
+    "@emailTemplate": "./email_templetes",
+    "@views": "./views"
+  },
+  "keywords": [
+    "node",
+    "backend"
+  ],
+  "author": "CWN@214",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunjshah45/marketplace/issues"
+  },
+  "homepage": "https://github.com/kunjshah45/marketplace#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.11",
+    "nodemon": "^2.0.14"
+  }
+}
